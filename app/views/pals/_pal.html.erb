@@ -1,0 +1,73 @@
+<% if pal.title == '-' %>
+  <h2 class="title is-2"><%= link_to pal.name, pal %></h2>
+<% else %>
+  <h2 class="title is-2">
+    <%= link_to pal.name, pal %> - <%= pal.title %>
+  </h2>
+<% end %>
+<div class="columns">
+  <div class="column is-one-quarter" >
+    <div class="card">
+      <div class="card-image">
+        <figure class="image is-4by3">
+          <img id="myImage" src="https://genshinlab.com/wp-content/uploads/2024/01/<%= pal.name %>-1.webp"
+                onerror="this.onerror=null; this.src='https://genshinlab.com/wp-content/uploads/2024/01/<%= pal.name %>.webp'"
+                alt="<%= pal.name %>">
+        </figure>
+      </div>
+    </div>
+  </div>
+
+  <div class="column is-three-quarters">
+    <article class="message is-dark">
+      <div class="message-header">
+        <p>Pal Status</p>
+      </div>
+      <div class="message-body">
+        <p>
+          <%= "Type".pluralize(pal.types.count) %>: <%= pal.types.map(&:name).join(", ") %>
+        </p>
+      </div>
+      <div class="message-body">
+        <p> HP: <%= pal.hp %> </p>
+      </div>
+      <div class="message-body">
+        <p> Attack: <%= pal.attack %> </p>
+      </div>
+      <div class="message-body">
+        <p> Speed: <%= pal.speed %> </p>
+      </div>
+    </article>
+  </div>
+</div>
+<p>
+  <strong>
+    <%= "Drop".pluralize(pal.drops.count) %>
+  </strong>
+  <%= pal.drops.map(&:name).join(", ") %>
+</p>
+
+<p>
+  <strong>
+    Skill:
+  </strong>
+  <%= pal.skill %>
+</p>
+
+<p>
+  <strong>
+    Region:
+  </strong>
+  <%= link_to pal.region.name, pal.region %>
+</p>
+
+<p>
+  <strong>
+    Rarity:
+  </strong>
+  <%= pal.rarity %>
+</p>
+
+<progress class="progress is-info" value="<%=pal.rarity%>" max=20>
+  <%= pal.rarity %>
+</progress>

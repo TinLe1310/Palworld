@@ -1,0 +1,17 @@
+<article class="message is-dark">
+  <div class="message-header">
+    <p>Types</p>
+    <button class="delete" aria-label="delete"></button>
+  </div>
+  <div class="message-body">
+    <ul>
+      <% @types.each do |t|%>
+        <li>
+          <%= link_to t.name, t %>
+          <em>(<%= t.pal_count %> Pals)</em>
+        </li>
+      <% end %>
+    </ul>
+  </div>
+</article>
+

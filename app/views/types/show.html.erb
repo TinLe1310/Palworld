@@ -1,0 +1,33 @@
+<h2 class="title is-2 has-text-centered">
+  <%= @type.name %>
+  <img src="https://genshinlab.com/wp-content/uploads/2024/01/palworld-<%= @type.name.downcase %>-element.webp" alt="<%= @type.name %>" width="50" height="50">
+</h2>
+<p class="mb-5">
+  There are approximately <%= @type.pals.count %> <%= @type.name %>type pals.
+</p>
+
+<div class="columns is-multiline">
+  <% @type.pals.each do |pal| %>
+    <div class="column is-one-quarter" >
+      <div class="card">
+         <header class="card-header">
+          <p class="card-header-title">
+            <%= pal.name %>
+          </p>
+        </header>
+        <div class="card-image">
+          <figure class="image is-4by3">
+            <img id="myImage" src="https://genshinlab.com/wp-content/uploads/2024/01/<%= pal.name %>-1.webp"
+                 onerror="this.onerror=null; this.src='https://genshinlab.com/wp-content/uploads/2024/01/<%= pal.name %>.webp'"
+                 alt="<%= pal.name %>">
+          </figure>
+        </div>
+      </div>
+    </div>
+  <% end %>
+</div>
+
+
+
+
+

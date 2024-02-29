@@ -1,0 +1,15 @@
+<article class="message is-dark">
+  <div class="message-header">
+    <p>Drops</p>
+    <button class="delete" aria-label="delete"></button>
+  </div>
+  <div class="message-body">
+    <ul>
+      <% @drops.each do |d| %>
+        <li>
+          <%= d.name %>
+        </li>
+      <% end %>
+    </ul>
+  </div>
+</article>

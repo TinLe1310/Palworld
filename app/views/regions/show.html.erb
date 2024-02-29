@@ -1,0 +1,26 @@
+<h2 class="title is-2 has-text-centered"><%= @region.name %></h2>
+<p class="mb-5">
+  <%= @region.name %> region has approximately <%= @region.pals.count %> pals up to the latest update.
+</p>
+
+<div class="columns is-multiline">
+  <% @region.pals.each do |pal| %>
+    <div class="column is-one-quarter" >
+      <div class="card">
+         <header class="card-header">
+          <p class="card-header-title">
+            <%= pal.name %>
+          </p>
+        </header>
+        <div class="card-image">
+          <figure class="image is-4by3">
+            <img id="myImage" src="https://genshinlab.com/wp-content/uploads/2024/01/<%= pal.name %>-1.webp"
+                 onerror="this.onerror=null; this.src='https://genshinlab.com/wp-content/uploads/2024/01/<%= pal.name %>.webp'"
+                 alt="<%= pal.name %>">
+          </figure>
+        </div>
+      </div>
+    </div>
+  <% end %>
+</div>
+

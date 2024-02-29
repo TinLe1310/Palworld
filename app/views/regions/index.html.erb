@@ -1,0 +1,19 @@
+<article class="message is-dark">
+  <div class="message-header">
+    <p>Regions</p>
+    <button class="delete" aria-label="delete"></button>
+  </div>
+  <div class="message-body">
+    <ul>
+      <% @regions.each do |r|%>
+          <li>
+            <%= link_to r.name, r %>
+            <em>(<%= r.pal_count %> Pals)</em>
+          </li>
+      <% end %>
+    </ul>
+  </div>
+</article>
+
+
+

@@ -1,0 +1,114 @@
+Id,Name,Type,Title,Skill,Drops,HP,Attack,Speed,Rarity,Region
+1,Lamball,Neutral,-,Fluffy Shield,"Lamball Mutton, Wool",70,70,550,1,Forest
+2,Cattiva,Neutral,-,Cat Helper,Red Berries,70,70,550,1,Forest
+3,Chikipi,Neutral,-,Egg Layer,"Chikipi Poultry, Egg",60,70,550,1,Forest
+4,Lifmunk,Grass,-,Lifmunk Recoil,"Berry Seeds, Low Grade Medical Supplies",75,70,550,1,Forest
+5,Foxparks,Fire,-,Huggy Fire,"Flame Organ, Leather",65,70,550,1,Forest
+6,Fuack,Water,-,Surfing Slam,"Leather, Pal Fluids",60,80,400,1,Forest
+7,Sparkit,Electric,-,Static Electricity,Electric Organ,60,60,500,1,Forest
+8,Tanzee,Grass,-,Cheery Rifle,Mushroom,80,100,400,1,Forest
+9,Rooby,Fire,-,Tiny Spark,"Flame Organ, Leather",75,100,550,2,Forest
+10,Pengullet,"Ice, Water",-,Pengullet Cannon,"Ice Organ, Pal Fluids",70,70,650,1,Forest
+11,Penking,"Ice, Water",-,Brave Sailor,"Ice Organ, Penking Plume",95,70,600,6,Forest
+12,Jolthog,Electric,-,Jolt Bomb,Electric Organ,70,70,550,1,Forest
+13,Gumoss,"Grass, Ground",-,Logging Assistance,"Berry Seeds, Gumoss Leaf",70,100,400,1,Forest
+14,Vixy,Neutral,-,Dig Here,"Bone, Leather",70,70,450,2,Forest
+15,Hoocrates,Dark,-,Dark Knowledge,"Fiber, High Grade Technical Manual",70,70,550,1,Forest
+16,Teafant,Water,-,Soothing Shower,Pal Fluids,70,70,400,1,Forest
+17,Depresso,Dark,-,Caffeine Inoculation,Venom Gland,70,70,400,1,Forest
+18,Cremis,Neutral,-,Fluffy Wool,Wool,70,100,450,1,Forest
+19,Daedream,Dark,-,Dream Chaser,"Small Pal Soul, Venom Gland",70,100,550,1,Forest
+20,Rushoar,Ground,-,Hard Head,"Bone, Leather, Rushoar Pork",80,100,700,1,Forest
+21,Nox,Dark,-,Kuudere,"Leather, Small Pal Soul",75,70,500,6,Forest
+22,Fuddler,Ground,-,Ore Detector,Leather,65,100,550,1,Forest
+23,Killamari,Dark,-,Fried Squid,Venom Gland,60,100,550,1,Forest
+24,Mau,Dark,-,Gold Digger,Gold Coin,70,70,550,1,Forest
+25,Celaray,Water,-,Zephyr Glider,Pal Fluids,80,100,700,3,Forest
+26,Direhowl,Neutral,-,Direhowl Rider,"Gold Coin, Leather, Ruby",80,110,1050,2,Forest
+27,Tocotoco,Neutral,-,Eggbomb Launcher,"Gunpowder, Tocotoco Feather",60,80,550,1,Desert
+28,Flopie,Grass,-,Helper Bunny,"Low Grade Medical Supplies, Wheat Seeds",75,100,550,1,Forest
+29,Mozzarina,Neutral,-,Milk Maker,"Milk, Mozzarina Meat",90,100,700,2,Forest
+30,Bristla,Grass,-,Princess Gaze,"Lettuce Seeds, Wheat Seeds",80,80,550,1,Forest
+31,Gobfin,Water,-,Angry Shark,Pal Fluids,90,90,500,2,Forest
+32,Hangyu,Ground,-,Flying Trapeze,Fiber,80,70,550,1,Forest
+33,Mossanda,Grass,Guardian Of The Forest,Grenadier Panda,"Leather, Mushroom, Tomato Seeds",100,100,700,6,Forest
+34,Woolipop,Neutral,-,Candy Pop,"Cotton Candy, High Quality Pal Oil",70,70,400,3,Forest
+35,Caprity,Grass,-,Berry Picker,"Caprity Meat, Horn, Red Berries",100,70,550,3,Forest
+36,Melpaca,Neutral,-,Pacapaca Wool,"Leather, Wool",90,90,800,3,Forest
+37,Eikthyrdeer,Neutral,-,Guardian of the Forest,"Eikthyrdeer Venison, Horn, Leather",95,70,900,4,Forest
+38,Nitewing,Neutral,-,Travel Companion,Leather,100,100,750,3,Forest
+39,Ribbuny,Neutral,-,Skilled Fingers,"Beautiful Flower, Leather",75,100,350,1,Forest
+40,Incineram,"Dark, Fire",-,Flameclaw Hunter,"Horn, Leather",95,150,960,4,Volcano
+41,Cinnamoth,Grass,-,Mysterious Scales,"Honey, Lettuce Seeds, Wheat Seeds",70,100,700,4,Forest
+42,Arsox,Fire,-,Warm Body,"Horn, Flame Organ",85,100,800,4,Volcano
+43,Dumud,Ground,-,Soil Improver,"Raw Dumud, High Quality Pal Oil",100,100,600,4,Desert
+44,Cawgnito,Dark,-,Telepeck,"Bone, Venom Gland, Small Pal Soul",75,80,1200,3,Forest
+45,Leezpunk,Dark,-,Sixth Sense,"Copper Key, Silver Key",80,90,800,2,Forest
+46,Loupmoon,Dark,-,Claws Glistening in the Dark,Bone,80,130,800,3,Forest
+47,Galeclaw,Neutral,-,Galeclaw Rider,"Galeclaw Poultry, Leather",75,120,700,2,Forest
+48,Robinquill,Grass,-,Hawk Eye,"Wheat Seeds, Arrow",90,100,750,5,Forest
+49,Gorirat,Neutral,-,Full-power Gorilla Mode,"Leather, Bone",90,110,720,5,Forest
+50,Beegarde,Grass,-,Worker Bee,Honey,80,100,550,4,Forest
+51,Elizabee,Grass,Empress of the Hive,Queen Bee Command,"Honey, Elizabee’s Staff",90,100,550,8,Forest
+52,Grintale,Neutral,-,Plump Body,High Quality Pal Oil,110,100,800,6,Forest
+53,Swee,Ice,-,Fluffy,Wool,60,100,400,1,Snow
+54,Sweepa,Ice,-,King of Fluff,Wool,100,100,500,6,Snow
+55,Chillet,"Dragon, Ice",Dancer On The Plains,Wriggling Weasel,Leather,90,100,800,4,Snow
+56,Univolt,Electric,-,Swift Deity,"Leather, Electric Organ, Horn",80,110,1100,5,Forest
+57,Foxcicle,Ice,-,Aurora Guide,"Ice Organ, Leather",90,100,750,5,Snow
+58,Pyrin,Fire,-,Red Hare,"Flame Organ, Leather",100,110,1300,6,Volcano
+59,Reindrix,Ice,-,Cool Body,"Reindrix Venison, Leather, Horn, ice Organ",100,80,700,4,Snow
+60,Rayhound,Electric,-,Jumping Force,Electric Organ,90,100,1150,5,Snow
+61,Kitsun,Fire,-,Clear Mind,"Flame Organ, Leather",100,70,900,6,Desert
+62,Dazzi,Electric,-,Lady of Lightning,Electric Organ,70,110,550,2,Desert
+63,Lunaris,Neutral,-,Antigravity,Paldium Fragment,90,80,650,6,Forest
+64,Dinossom,"Dragon, Grass",-,Fragrant Dragon,Wheat Seeds,110,90,700,6,Forest
+65,Surfent,Water,-,Swiss Swimmer,Pal Fluids,90,70,650,4,Forest
+66,Maraith,Dark,-,Messenger of Death,"Bone, Small Pal Soul",75,50,800,6,Forest
+67,Digtoise,Ground,-,Drill Crusher,"Ore, High Quality Pal Oil",80,80,420,5,Desert
+68,Tombat,Dark,-,Ultrasonic Sensor,"Leather, Small pal Soul",95,100,550,5,Desert
+69,Lovander,Neutral,-,Heart Drain,"Mushroom, Cake, Suspicious Juice, Strange Juice",120,70,850,5,Desert
+70,Flambelle,Fire,-,Magma Tears,"Flame Organ, High Quality Pal Oil",60,100,375,1,Volcano
+71,Vanwyrm,"Dark, Fire",-,Aerial Maurader,"Bone, Ruby, Gold Coin",90,100,850,4,Volcano
+72,Bushi,Fire,-,Brandish Blade,"Bone, Ingot",80,100,900,7,Volcano
+73,Beakon,Electric,-,Thunderous,Electric Organ,105,100,1200,6,Desert
+74,Ragnahawk,Fire,-,Flame Wing,Flame Organ,95,100,1300,7,Volcano
+75,Katress,Dark,-,Grimoire Collector,"Leather, Katress Hair, High Grade Technical Manual",90,100,620,6,Volcano
+76,Wixen,Fire,-,Lord Fox,"Flame Organ, High Grade Technical Manual",90,50,620,6,Volcano
+77,Verdash,Grass,-,Grassland Speedster,"Leather, Bone",90,100,700,8,Santuary
+78,Vaelet,Grass,-,Purification of Gaia,"Low Grade Medical Supplies, Tomato Seeds",100,100,550,8,Santuary
+79,Sibelyx,Ice,Messenger Of Snow Catastrophe,Silk Maker,"High Quality Cloth, Ice Organ",110,90,550,7,Santuary
+80,Elphidran,Dragon,Gentle Sky Dragon,Amicable Holy Dragon,High Quality Pal Oil,110,80,800,7,Forest
+81,Kelpsea,Water,Child Of The Deep,Aqua Spout,"Raw Kelpsea, Pal Fluids",70,100,900,1,Forest
+82,Azurobe,"Dragon, Water",Queen Of The Lake,Waterwing Dance,Cloth,110,70,800,7,Forest
+83,Cryolinx,Ice,-,Dragon Hunter,Ice Organ,100,140,900,7,Snow
+84,Blazehowl,"Dark, Fire",-,HellFire Lion,Flame Organ,105,100,900,7,Volcano
+85,Relaxaurus,"Dragon, Water",-,Hungry Missile,"High Quality Pal Oil, Ruby",110,110,800,8,Forest
+86,Broncherry,Grass,-,Overaffectionate,"Broncherry Meat, Tomato Seeds",120,80,500,7,Forest
+87,Petallia,Grass,-,Blessing of the Flower Spirit,Beautiful Flower,100,100,700,8,Forest
+88,Reptyro,"Fire, Ground",Magma-Born Juggernaut,Ore-Loving Beast,Flame Organ,110,100,550,6,Volcano
+89,Kingpaca,Neutral,Supreme Fluff Commander,King of Muscles,Wool,120,100,700,8,Forest
+90,Mammorest,Grass,King Of The Forest,Gaia Crusher,"High Quality Pal Oil, Leather, Mammorest Meat",150,100,600,8,Forest
+91,Wumpo,Ice,-,Guardian of the Snowy Mountain,"Ice Organ, Beautiful Flower",140,100,550,7,Snow
+92,Warsect,"Grass, Ground",Unyielding Colossus,Hard Armor,Honey,120,100,600,8,Forest
+93,Fenglope,Neutral,-,Wind and Clouds,"Leather, Horn",110,110,1050,3,Forest
+94,Felbat,Dark,-,Life Steal,"Cloth, Small Pal Soul",100,100,700,6,Forest
+95,Quivern,Dragon,-,Sky Dragon's Affection,High Quality Pal Oil,105,100,950,7,Forest
+96,Blazamut,Fire,Cursed Tyrant,Magma Kaiser,"Coal, Flame Organ",100,150,900,9,Volcano
+97,Helzephyr,Dark,-,Wings of Death,"Venom Gland, Medium Pal Soul",100,100,1100,7,Volcano
+98,Astegon,"Dark, Dragon",Ravager Of Stars,Black Ankylosaur,"Pal Metal Ingot, Pure Quartz",100,100,800,9,Santuary
+99,Menasting,"Dark, Ground",-,Steel Scorpion,"Coal, Venom Gland",100,100,1200,9,Desert
+100,Anubis,Ground,Guardian Of The Dark Sun,Guardian of the Desert,"Bone, Large Pal Soul, Innovative Technical Manual",120,130,1000,10,Desert
+101,Jormuntide,"Dragon, Water",Emperor Of The Sea,Stormbringer Sea Dragon,Pal Fluids,130,150,700,8,Forest
+102,Suzaku,Fire,-,Wings of Fire,Flame Organ,120,100,1100,8,Volcano
+103,Grizzbolt,Electric,-,Yellow Tank,"Electric Organ, Leather",105,120,550,8,Santuary
+104,Lyleen,Grass,Queen Of Lillies,Harvest Goddess,-,110,100,550,9,Santuary
+105,Faleris,Fire,Master Of The Flame Sky,Scorching Predator,Flame Organ,100,100,1400,9,Santuary
+106,Orserk,"Dragon, Electric",-,Ferocious Thunder Dragon,Electric Organ,100,100,1200,9,Santuary
+107,Shadowbeak,Dark,-,Modified DNA,"Pal Metal Ingot, Carbon Fiber, Innovative Technical Manual",120,130,1200,10,Santuary
+108,Paladius,Neutral,-,Holy Knight Of The Firmament,Pal Metal Ingot,130,110,1400,20,Desert
+109,Necromus,Dark,-,Dark Knight of the Abyss,"Pal Metal Ingot, Large Pal Soul",130,100,1600,20,Desert
+110,Frostallion,Ice,-,Ice Steed,"Ice Organ, Diamond",140,100,1500,20,Snow
+111,Jetragon,Dragon,-,Aerial Missile,"Pure Quartz, Polymer, Carbon Fiber, Diamond",110,100,3300,20,Volcano
+112,Boltmane,Electric,-,-,Flame Organ,100,100,1000,20,Forest
+113,Dragostrophe,"Dark, Dragon",-,-,Bone,130,100,800,10,Santuary

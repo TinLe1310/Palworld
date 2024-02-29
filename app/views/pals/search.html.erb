@@ -1,0 +1,10 @@
+<p class="mb-5">
+  Found <%= pluralize(@pals.count, "Pal") %> with keywords: <%= params[:keywords] %>
+</p>
+<ul>
+  <% @pals.each do |pal| %>
+    <li>
+      <%= link_to pal.name, pal %>
+    </li>
+  <% end %>
+</ul>

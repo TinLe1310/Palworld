@@ -1,0 +1,16 @@
+<footer class="footer">
+  <div>
+    <nav class="level">
+      <div class="level-right">
+        <em>Copywrong Palworld 2024</em>
+      </div>
+      <div class="level-right">
+        <% cms_pages.each do |page| %>
+          <p class="level-item">
+            <%= link_to page.title, permalink_path(page.permalink)%>
+          </p>
+        <% end %>
+      </div>
+    </nav>
+  </div>
+</footer>
