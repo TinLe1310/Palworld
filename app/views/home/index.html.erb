@@ -4,23 +4,20 @@
     <h2 class="title is-2 has-text-centered">
       Highest Rarity Pals
     </h2>
-    <ol class="ml-5">
 
-      <% @pals.each do |p| %>
-        <section class="hero is-small is-primary">
-          <div class="hero-body">
-            <p class="title">
-              <%= link_to p.name, p %>
-            </p>
-            <em class="subtitle">
-              (<%= p.region.name %>)
-            </em>
-          </div>
-        </section>
-        <br>
-      <% end %>
-
-    </ol>
+    <% @pals.each do |p| %>
+      <section class="hero is-small is-primary">
+        <div class="hero-body">
+          <p class="title">
+            <%= link_to p.name, p %>
+          </p>
+          <em class="subtitle">
+            (<%= p.region.name %>)
+          </em>
+        </div>
+      </section>
+      <br>
+    <% end %>
 
     <p class = "mt-5 has-text-centered">
       <strong>
@@ -33,21 +30,19 @@
     <h2 class="title is-2 has-text-centered">
       Common Regions
     </h2>
-    <ol class="ml-5">
-        <% @regions.each do |r| %>
-          <section class="hero is-small is-danger">
-            <div class="hero-body">
-              <p class="title">
-                <%= link_to r.name, r %>
-              </p>
-              <em class="subtitle">
-                (<%= r.pals.count%> Pals)
-              </em>
-            </div>
-          </section>
-          <br>
-        <% end %>
-    </ol>
+      <% @regions.each do |r| %>
+        <section class="hero is-small is-danger">
+          <div class="hero-body">
+            <p class="title">
+              <%= link_to r.name, r %>
+            </p>
+            <em class="subtitle">
+              (<%= r.pals.count%> Pals)
+            </em>
+          </div>
+        </section>
+        <br>
+      <% end %>
 
     <p class = "mt-5 has-text-centered">
       <strong>
