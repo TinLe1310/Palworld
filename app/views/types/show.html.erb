@@ -1,7 +1,22 @@
-<h2 class="title is-2 has-text-centered">
-  <%= @type.name %>
-  <img src="https://genshinlab.com/wp-content/uploads/2024/01/palworld-<%= @type.name.downcase %>-element.webp" alt="<%= @type.name %>" width="50" height="50">
-</h2>
+<div class="columns">
+  <div class="column is-one-fifth">
+    <div class="button is-primary is-light">
+      <%= link_to 'Back to Types', :back %>
+    </div>
+  </div>
+
+  <div class="column">
+    <h2 class="title is-2 has-text-centered">
+      <%= @type.name %>
+      <img src="https://genshinlab.com/wp-content/uploads/2024/01/palworld-<%= @type.name.downcase %>-element.webp" alt="<%= @type.name %>" width="50" height="50">
+    </h2>
+  </div>
+
+  <div class="column is-one-fifth">
+    <p></p>
+  </div>
+</div>
+
 <p class="mb-5">
   There are approximately <%= @type.pals.count %> <%= @type.name %>type pals.
 </p>
